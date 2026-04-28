@@ -131,16 +131,9 @@ Each dashboard is aligned with business questions derived from EDA and supported
 
 ## How to Run
 
-1. Clone the repository.
-2. Open the notebooks in Jupyter Notebook or Google Colab.
+1. Clone the repository to your local system.
+2. Open all project notebooks using Jupyter Notebook or Google Colab.
 3. Run the notebooks in order:
    `01_extraction.ipynb` -> `02_cleaning.ipynb` -> `03_eda.ipynb` -> `04_statistical_analysis.ipynb` -> `05_final_load_prep.ipynb`
 4. Use the generated CSV files for Tableau dashboard creation.
 
-## Current Status
-
-- Data extraction and cleaning: Completed
-- Exploratory data analysis: Completed
-- Statistical analysis: Completed
-- Final data preparation: Completed
-- Dashboard development: In progress
