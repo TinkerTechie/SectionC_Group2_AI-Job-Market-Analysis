@@ -1,4 +1,4 @@
-## 👥 Team Members Portfolio
+## Team Members Portfolio
 
 | Name | Roll No | Portfolio |
 |------|--------|----------|
