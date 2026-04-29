@@ -42,24 +42,29 @@ The workflow follows a structured analytics pipeline:
 
 ```text
 SectionC_Group2_AI-Job-Market-Analysis/
-├── README.md
+|__DVA-focused-Portfolio
+|__DVA-oriented-Resume
 ├── data/
 │   ├── raw/
 │   └── processed/
+├── docs/
+    |__data_dictionary.md
 ├── notebook/
 │   ├── 01_extraction.ipynb
 │   ├── 02_cleaning.ipynb
 │   ├── 03_eda.ipynb
 │   ├── 04_statistical_analysis.ipynb
 │   └── 05_final_load_prep.ipynb
+├── report/
 ├── scripts/
+    |__init.py
 │   └── etl_pipeline.py
 ├── tableau/
 │   ├── screenshots/
 │   └── dashboard_links.md
-├── report/
-├── docs/
-└── src/
+|__README.md
+|__requirements.txt
+
 ```
 
 ## Methodology
@@ -131,8 +136,8 @@ Each dashboard is aligned with business questions derived from EDA and supported
 
 ## How to Run
 
-1. Clone the repository.
-2. Open the notebooks in Jupyter Notebook or Google Colab.
+1. Clone the repository to your local system.
+2. Open all project notebooks using Jupyter Notebook or Google Colab.
 3. Run the notebooks in order:
    `01_extraction.ipynb` -> `02_cleaning.ipynb` -> `03_eda.ipynb` -> `04_statistical_analysis.ipynb` -> `05_final_load_prep.ipynb`
 4. Use the generated CSV files for Tableau dashboard creation.
